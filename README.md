@@ -46,13 +46,67 @@
 **图片title是图片的标题，当鼠标移到图片上时显示的内容。title可加可不加**
 
 ![aaa](https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=2795980557,2077253840&fm=58&bpow=1024&bpoh=1664 'Markdown')
+
+
+
+
 ## 6.超链接
+    [超链接名](超链接地址 "超链接title")
+[Google](https://wwww.google.com)
+
 ## 7.列表
++ 无序列表用 - + * 任何一种都可以
+    + 1
+    + 2  
+    + 3
++ 有序列表数字加点
+    1. A
+    2. B
+    3. C
+ 
 ## 8.表格
+    表头|表头|表头
+    ---|:--:|---:
+    内容|内容|内容
+    内容|内容|内容
+
+    第二行分割表头和内容。
+    - 有一个就行，为了对齐，多加了几个
+    文字默认居左
+    -两边加：表示文字居中
+    -右边加：表示文字居右
+
+A|B|C
+---|:--:|---:
+1|2|3
+4|5|6
+7|8|9
 ## 9.代码
+    单行代码：代码之间分别用一个``包起来
+
+`code content`
+
+    代码之间分别用三个反引号包起来，且两边的反引号单独占一行
+
+```
+ public partial class Emui_WPWG : BasePage
+    {
+        public string ot = "pt";
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            ot = Request.QueryString["ot"];
+        }
+    }
+```
 ## 10.流程图
+    ```flow
+    st=>start: 开始
+    op=>operation: My Operation
+    cond=>condition: Yes or No?
+    e=>end
+    st->op->cond
+    cond(yes)->e
+    cond(no)->op
+    &```
 
 
-
-注：标准语法一般在#后跟个空格再写文字
-***
