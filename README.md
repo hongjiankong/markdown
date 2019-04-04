@@ -44,6 +44,8 @@
 
 **图片alt就是显示在图片下面的文字，相当于对图片内容的解释。**
 **图片title是图片的标题，当鼠标移到图片上时显示的内容。title可加可不加**
+
+![aaa](https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268%3Bg%3D0/sign=79cf53f2074f78f0800b9df5410a6d68/00e93901213fb80ef9ceac7132d12f2eb938947d.jpg 'Markdown')
 ## 6.超链接
 ## 7.列表
 ## 8.表格
